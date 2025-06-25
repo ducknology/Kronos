@@ -3,9 +3,9 @@ Pod::Spec.new do |s|
   s.version = '4.3.2'
   s.license = { :type => 'Apache License, Version 2.0', :file => 'LICENSE' }
   s.summary = 'Elegant NTP client in Swift'
-  s.homepage = 'https://github.com/MobileNativeFoundation/Kronos'
+  s.homepage = 'https://github.com/ducknology/Kronos'
   s.authors = { 'Martin Conte Mac Donell' => 'Reflejo@gmail.com' }
-  s.source = { :git => 'https://github.com/MobileNativeFoundation/Kronos.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/ducknology/Kronos.git', :tag => s.version }
   s.swift_versions = ['5.0', '5.2', '5.5', '5.6', '5.7', '5.8', '5.9']
 
   s.ios.deployment_target = '12.0'
